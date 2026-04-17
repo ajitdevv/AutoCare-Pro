@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="16" fill="#F0F9FF"/>
+  <g transform="translate(55,25)">
+    <rect x="20" y="10" width="50" height="15" rx="3" fill="#0EA5E9"/>
+    <rect x="10" y="25" width="70" height="115" rx="8" fill="#0EA5E9"/>
+    <rect x="17" y="35" width="56" height="45" rx="4" fill="#BAE6FD"/>
+    <text x="45" y="55" font-family="Arial" font-size="9" font-weight="bold" fill="#0369A1" text-anchor="middle">COOLANT</text>
+    <text x="45" y="70" font-family="Arial" font-size="8" fill="#0369A1" text-anchor="middle">1 Litre</text>
+    <rect x="30" y="0" width="30" height="14" rx="3" fill="#0284C7"/>
+    <ellipse cx="45" cy="110" rx="25" ry="8" fill="#7DD3FC" opacity="0.5"/>
+  </g>
+</svg>

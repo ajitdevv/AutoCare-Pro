@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="16" fill="#FFFBEB"/>
+  <g transform="translate(40,35)">
+    <rect x="10" y="20" width="100" height="70" rx="8" fill="#F59E0B"/>
+    <rect x="15" y="25" width="90" height="60" rx="5" fill="#FDE68A"/>
+    <rect x="0" y="40" width="15" height="30" rx="4" fill="#D97706"/>
+    <rect x="105" y="40" width="15" height="30" rx="4" fill="#D97706"/>
+    <text x="60" y="55" font-family="Arial" font-size="14" font-weight="bold" fill="#92400E" text-anchor="middle">12V</text>
+    <text x="60" y="72" font-family="Arial" font-size="10" fill="#92400E" text-anchor="middle">BATTERY</text>
+    <rect x="30" y="10" width="15" height="15" rx="2" fill="#EF4444"/>
+    <text x="37" y="22" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">+</text>
+    <rect x="75" y="10" width="15" height="15" rx="2" fill="#1E293B"/>
+    <text x="82" y="22" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">-</text>
+  </g>
+</svg>
