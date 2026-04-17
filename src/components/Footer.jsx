@@ -1,17 +1,22 @@
 import Link from "next/link";
-import { Car, Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-auto">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="bg-linear-to-b from-gray-900 to-gray-950 text-gray-300 mt-auto border-t border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center">
-                <Car className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-lg font-bold text-white">AutoCare Pro</span>
+              <Image
+                src="/logo-mark.svg"
+                alt="AutoCare Pro"
+                width={40}
+                height={40}
+                className="h-10 w-10"
+              />
+              <span className="text-lg font-extrabold text-white tracking-tight">AutoCare <span className="text-primary-light">Pro</span></span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               Your one-stop solution for car servicing and auto parts. Book

@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useAuth } from "@/lib/auth";
 import { useCartStore } from "@/store/cartStore";
@@ -63,16 +64,21 @@ export default function Navbar() {
   );
 
   return (
-    <nav className="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
+    <nav className="bg-white/80 backdrop-blur-lg border-b border-gray-200/70 sticky top-0 z-50 shadow-[0_1px_0_rgba(15,23,42,0.02)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center group-hover:shadow-md group-hover:shadow-primary/20 transition-all">
-              <Car className="h-5 w-5 text-white" />
-            </div>
-            <span className="text-lg font-bold text-gray-900 hidden sm:block">
-              AutoCare <span className="text-primary">Pro</span>
+            <Image
+              src="/logo-mark.svg"
+              alt="AutoCare Pro"
+              width={40}
+              height={40}
+              priority
+              className="h-10 w-10 drop-shadow-sm group-hover:drop-shadow-md transition-all group-hover:scale-105"
+            />
+            <span className="text-lg font-extrabold text-gray-900 hidden sm:block tracking-tight">
+              AutoCare <span className="bg-linear-to-r from-primary to-blue-700 bg-clip-text text-transparent">Pro</span>
             </span>
           </Link>
 
